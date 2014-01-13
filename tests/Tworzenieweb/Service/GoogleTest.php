@@ -17,12 +17,15 @@ class GoogleTest extends \PHPUnit_Framework_TestCase
         
         $client = m::mock('\Goutte\Client');
         $client->shouldReceive('request')->withAnyArgs()->andReturn($crawler);
+        $client->shouldReceive('setHeader')->withAnyArgs();
         
-        $service = new Google($client);
+        $hostProvider = m::mock('\Tworzenieweb\Service\UserAgentProvider');
+        $hostProvider->shouldReceive('getAgent')->andReturn('Opera/9.80 (X11; Linux x86_64; U; en) Presto/2.9.168 Version/11.50');
+        
+        $service = new Google($client, $hostProvider);
         
         $model = new Tworzenieweb\Model\Google();
         $model->setTerm('phpunit')
-              ->setMaxPages(20)
               ->setUrl('https://github.com/sebastianbergmann/phpunit');
         
         $service->search($model);
