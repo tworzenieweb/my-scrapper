@@ -1,0 +1,7 @@
+Opera/9.80 (X11; Linux x86_64; U; en) Presto/2.9.168 Version/11.50
+Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1667.0 Safari/537.36
+Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (FM Scene 4.6.1)
+Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) (Prevx 3.0.5)
+Opera/5.0 (Linux 2.0.38 i386; U) [en]
+Opera/6.x (Linux 2.4.8-26mdk i686; U) [en]
+Opera/8.xx (Windows NT 5.1; U; en)
